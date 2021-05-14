@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="aboutstyles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body background-image='pink.jpg'>
+
+<div class="topnav" id="myTopnav">
+    <img src="ecommerce.png" alt="">
+    <div class="drop">
+        <button class="dropbtn">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="drop-content">
+          <a class = "drop-link" href="#">Link 1</a>
+          <a class = "drop-link" href="#">Link 2</a>
+          <a class = "drop-link" href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="search"><input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button></div>
+
+        <form action="" method="post">
+            <a href="#signin" id="active" class="signin-link">Sign in</a>
+            <a href="#help">Help</a>
+            <a href="#cart">Cart</a>
+            <a href="#home">Home</a>
+        </form>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  var y = document.getElementById("active");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+    y.className = "";
+  } else {
+    x.className = "topnav";
+    y.className = "active";
+  }
+}
+</script>
+
+<h2 class='index-h2'>About Us</h2>
+<p class='index-p'> <br />
+  “When You<br /> order with us,<br /> We wish to<br /> present it like<br /> Presents”
+  <br />
+  <br />
+We are a start <br />up company<br /> Excited to<br /> serve our<br /> customers all<br /> the time !!
+</p>
+<p class=index-a> <br />
+  We have more than 1000+ regular customers!! <br /><br />
+  If you are new Sign-In and be a part of this wonderful Shoppers Community!!
+<button type='button' class='button1'>Register!</button>
+</p>
+<p class='index-b'>
+  <br />
+  Reach Us <br />Soon!!
+  <button type="button" class='button2'>Continue <br /> Shopping!! </button>
+</p>
+  <img src="linkdin.png" alt="linkedin" class='image-link'>
+  <img src="twi.png" alt="twitter" class='image-twi'>
+  <img src="yt.png" alt="youtube" class='image-youtube'>
+  <img src="download.png" alt="facebook" class='image-fb'>
+  <img src="download (1).png" alt="insta" class='image-insta'>
+  <img src="pink.jpg" alt="side1" class='image-side1'>
+
+  <footer class="black-section" id="footer">
+         <div class="footer-container">
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-instagram"></a>
+             <a href="#" class="fa fa-envelope"></a>
+           <p class="copyrights"><b>©</b>&nbsp; Copyright 2021 Exceptional Handlers</p>
+         </div>
+       </footer>
+     </body>
+</html>
